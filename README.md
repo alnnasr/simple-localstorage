@@ -21,7 +21,7 @@ get name of object: `store.getData("car").name;` output //BMW<br>
 store array: `store.setData("car",["BMW",120,"black"]);`<br>
 get array: `store.getData("car")[1];` output //120<br>
 #### Array inside Object
-store object: `store.setData("car",{name: "BMW", speed: 120, color: ["black","white","blue"]});`<br>
+store object: `store.setData("car",{name: "BMW", speed: 120, colors: ["black","white","blue"]});`<br>
 get blue color of object: `store.getData("car").color[2]` output //blue
 
 #### Note
