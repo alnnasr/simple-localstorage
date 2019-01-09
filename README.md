@@ -29,5 +29,5 @@ to work with this API you must place the script source file in `<head>` section.
  `<head>` <script type="text/javascript" src="storeApi.js"></script> `</head>`
  
  #### App work with this Api
- my app **Speedometer Alert** was built with this Api:<br>
+ my app **Speedometer Alert** was built using this Api:<br>
  https://play.google.com/store/apps/details?id=com.spinningtop.speedalert
