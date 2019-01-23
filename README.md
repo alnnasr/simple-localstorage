@@ -24,8 +24,8 @@ get array: `store.getData("car")[1];` output //120<br>
 store object: `store.setData("car",{name: "BMW", speed: 120, colors: ["black","white","blue"]});`<br>
 get blue color of object: `store.getData("car").color[2]` output //blue
 #### Object inside Array
-store array of objects: `store.setData("car",[{name: "BMW", speed: 120, color: "black"},{name: "Mercedes", speed: 130, color: "white"}]);`<br>
-get name of the second object: `store.getData("car")[1].name` output //Mercedes
+store array of objects: `store.setData("cars",[{name: "BMW", speed: 120, color: "black"},{name: "Mercedes", speed: 130, color: "white"}]);`<br>
+get name of the second object: `store.getData("cars")[1].name` output //Mercedes
 
 #### Note
 to work with this API you must place the script source file in `<head>` section.<br>
