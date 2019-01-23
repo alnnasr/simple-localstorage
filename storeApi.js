@@ -1,3 +1,6 @@
+//Created by Ismail
+//website: pcfacile1.com
+
 var store = {
 		setData: function(nameData,valueData){
 			this.nameData = nameData;
